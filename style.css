@@ -1,0 +1,106 @@
+
+/* NAVBAR STYLE */
+
+.navmenu{
+    background-color: #070042;
+    position: sticky;
+    top: 0;
+}
+
+ul{
+    display: inline-block;
+
+}
+li{
+    position: absolute;
+    display: inline-block;
+
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+a:hover{
+    text-decoration: none;
+    color: #9af3ff;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+li.nav-1{
+    left: 10%;
+    top: 30%;
+}
+
+li.nav-2{
+    left: 25%;
+    top: 30%;
+}
+
+li.nav-3{
+    left: 50%;
+    top: 28%;
+}
+
+li.nav-4{
+    left: 75%;
+    top: 28%;
+}
+
+/* WELCOME SECTION DECORATION */
+div.welcometext{
+    background-color: #070042;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img{
+    width: 30%;
+}
+
+a.learnmore{
+    background: rgb(255, 122, 34);
+    padding: 4px;
+    border-radius: 3px;
+}
+
+/* PRODUCT SECTION STYLING */
+
+section{
+    align-items: center;
+    justify-items: center;
+}
+div.products{
+    display: inline-block;
+    /* align-items: center; */
+    justify-items: center;
+}
+
+img{
+    align-items: center;
+}
+
+
+.productssection h2, p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #070042;
+}
+
+.footer{
+    align-items: center;
+    background: #070042;
+    padding: 4px;
+}
+
+.footer p{
+    text-align: center;
+    color: white;
+}
